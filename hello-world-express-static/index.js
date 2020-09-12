@@ -16,7 +16,7 @@ app.use(cors());
 
 //express get
 app.get('/', (req, res) => {
-	res.status(200).sendFile(path.join(__dirname, 'public'));
+	res.status(200);
 });
 
 const server = app.listen(PORT, () => {
