@@ -1,20 +1,15 @@
 const express = require('express');
-const app = express();
-
-//cors
-const cors = require('cors');
-
 //node
 const path = require('path');
-
 //port setup
 const PORT = process.env.PORT || 5000;
 
+const app = express();
+
 //serve static resource
-express()
+app
 	.use(express.static(path.join(__dirname, 'public')))
-	.use(cors())
-	.get('/', (req, res) => res.status(200).render('index'))
+	.get('/', (req, res) => res.send(path.join(__dirname, 'public/index.html')))
 	.listen(PORT, () => console.log(`listening on port <<${PORT}>> ----`));
 
 //commonJS not ES6 because of nodejs
