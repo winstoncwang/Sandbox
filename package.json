@@ -4,7 +4,7 @@
 	"description": "express server used to render html hello world page with use of JS",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon index.js",
+		"start": "node index.js",
 		"test": "mocha ./test",
 		"build": "node index.js",
 		"deploy": "node index.js"
