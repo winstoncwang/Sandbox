@@ -1,6 +1,25 @@
-# Sandbox
-Organised using github project, used for experimenting with my own codes.
+//Hello world using express to serve static page
 
-Task 1 - HTML CSS JS used to present hello world using JS
-Task 2 - Express Server to serve the static page
-Task 3 - Deployment
+//Using nodejs and express js
+
+-------------------------------------------------------------
+
+init node, install express and tools, folder for static serving through server. HTML and CSS
+
+-------------------------------------------------------------
+
+Update on the readme files
+
+-------------------------------------------------------------
+
+update on the path variable and test on the hello world static page serving
+
+-------------------------------------------------------------
+
+Setting up mocha with supertest for express server
+
+-------------------------------------------------------------
+
+Deployment heroku configuration
+
+-------------------------------------------------------------
