@@ -11,8 +11,11 @@ const app = express();
 app
 	.use(cors())
 	.use(express.static(path.join(__dirname, 'public')))
-	.get('/', (req, res) => res.send(path.join(__dirname, 'public', 'index')))
-	.listen(PORT, () => console.log(`listening on port <<${PORT}>> ----`));
+	.get('/', (req, res) => res.status(202));
+
+const server = app.listen(PORT, () =>
+	console.log(`listening on port <<${PORT}>> ----`)
+);
 
 //commonJS not ES6 because of nodejs
 module.exports = server;

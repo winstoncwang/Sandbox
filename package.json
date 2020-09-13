@@ -8,7 +8,11 @@
 		"test": "mocha ./test",
 		"build": "npm install"
 	},
-	"keywords": [ "node", "heroku", "express" ],
+	"keywords": [
+		"node",
+		"heroku",
+		"express"
+	],
 	"devDependencies": {
 		"mocha": "^8.1.3",
 		"supertest": "^4.0.2"
