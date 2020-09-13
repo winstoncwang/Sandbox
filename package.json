@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "node index.js",
 		"test": "mocha ./test",
-		"build": "node index.js",
+		"build": "npm install",
 		"deploy": "node index.js"
 	},
 	"keywords": [ "node", "heroku", "express" ],
