@@ -3,7 +3,7 @@ const request = require('supertest');
 describe('GET / to return something', function () {
 	let server;
 	beforeEach(() => {
-		server = require('../index.js');
+		server = require('../server.js');
 	});
 	afterEach(() => {
 		server.close();
