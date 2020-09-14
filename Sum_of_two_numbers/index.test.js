@@ -31,3 +31,14 @@ describe('Test function sum of two numbers', () => {
 		);
 	});
 });
+
+/* 
+Test Result:
+Test function sum of two numbers
+√ fn is a function
+√ Return value is a number
+√ Correct value returned
+√ Wrong value returned
+
+
+4 passing (10ms) */
